@@ -1,0 +1,133 @@
+﻿@using BLL.inteface;
+@using Dal.Entities;
+@model OrderVM
+@inject IGenericRepository<Customer> customer
+@inject IGenericRepository<Product> product
+
+<form asp-action="Create" asp-controller="Order">
+    <input type="hidden" asp-for="Id" />
+
+    <select asp-for="CustomerId" class="py-2 px-3 border-radius-10 mb-10">
+        <option value="default">Choose Customer</option>
+        @foreach (var item in await customer.GetAll())
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </select>
+    <br />
+    <label asp-for="ProductId">Choose Product</label>
+    <select asp-for="ProductId" id="list" class="form-control custom-select2 select2-hidden-accessible my-4 mb-3 border-radius-10" multiple="multiple" searchable='Search here..' style="width:100%;" data-select2-id="4" tabindex="-1"
+            aria-hidden="true" onselect="getprces()" onchange="getprces()" onclick="getprces()" oninput="getprces()">
+
+        @foreach (var item in await product.GetAll())
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </select>
+
+    <div id="table-div"></div>
+
+    <div class="inputs">
+
+        <div class="price">
+            <label>Total Products</label>
+            <input onkeyup="getTotal()" type="number" id="price" placeholder="Price" disabled>
+            <label>Taxies</label>
+            <input onkeyup="getTotal()" type="number" id="taxes" placeholder="taxes">
+            <label>ads</label>
+            <input onkeyup="getTotal()" type="number" id="ads" placeholder="ads">
+            <label>Discount</label>
+            <input onkeyup="getTotal()" type="number" id="discount" placeholder="discount">
+            <label>Total</label>
+            <input type="number" id="total" placeholder="Total" asp-for="@Model.Price">
+
+        </div>
+
+        <button class="btn btn-success mt-4" type="submit">Add Order</button>
+</form>
+
+<script>
+
+    
+
+    var select = document.getElementById("list");
+
+    
+    var selectedOptions = Array.from(select.selectedOptions).map(option => option.value);
+
+    console.log("No Man Haha");
+    console.log(selectedOptions);
+
+    let title = document.getElementById("title");
+    let price = document.getElementById("price");
+    let taxes = document.getElementById("taxes");
+    let ads = document.getElementById("ads");
+    let discount = document.getElementById("discount");
+    let total = document.getElementById("total");
+
+    
+   
+
+    function getprces(){
+        var select = document.getElementById("list");
+        var selectedOptions = Array.from(select.selectedOptions).map(option => option.value);
+        console.log(selectedOptions);
+
+        $.ajax({
+            type: "POST",
+            url: "/Product/calcprces",
+            data: JSON.stringify(selectedOptions),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+
+                console.log("Here You are");
+                console.log(response);
+                totalall=0;
+                var tableBody = document.createElement("tbody");
+                var table = document.createElement("table");
+                table.id="Mytable";
+                table.className = "table table-striped";
+                table.appendChild(tableBody);
+                for (var i = 0; i < response.length; i++) {
+                    var row = tableBody.insertRow(i);
+                    var cell = row.insertCell(0);
+                    cell.innerHTML = response[i].prodname;
+                    var cell2 = row.insertCell(1);
+                    cell2.innerHTML = response[i].prodprice;
+                    totalall += response[i].prodprice;
+
+                }
+                var tableDiv = document.getElementById("table-div");
+                tableDiv.innerHTML = "";
+                tableDiv.appendChild(table);
+                console.log(totalall);
+                price.value = totalall;
+                getTotal();
+
+                // Handle the response from the server
+            },
+            error: function (xhr, status, error) {
+                // Handle any errors that occur during the AJAX request
+            }
+        });
+
+    }
+
+    function getTotal() {
+        
+
+        if (price.value != '') {
+            let result = (+price.value + +taxes.value + +ads.value)
+                - +discount.value; //+ for transforming string to number
+            total.value = result;
+            //green color
+        }
+        else {
+            total.innerHTML = '';
+            total.style.background = ' rgb(182, 5, 5)'
+
+        }
+    }
+</script>
+

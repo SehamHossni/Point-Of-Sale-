@@ -1,0 +1,42 @@
+﻿@model IEnumerable<CustomerVM>
+
+<div class="card-box mb-30">
+    <a class="btn btn-primary" asp-action="Create"> Add New Customer</a>
+    <!-- <a class="btn btn-primary" asp-action="CheckProducts">Check Products By Customer Name</a>-->
+
+    <table class="data-table table nowrap">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th class="datatable-nosort">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <h5 class="font-16">@item.Name</h5>
+                    </td>
+                    <td>@item.Address</td>
+                    <td>@item.Phone</td>
+                    <td>
+                        <div class="dropdown">
+                            <a class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                <i class="dw dw-more"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+                                <a class="dropdown-item" asp-controller="Customer" asp-action="Details" asp-route-id="@item.Id"><i class="dw dw-eye"></i> View</a>
+                                <a class="dropdown-item" asp-controller="Customer" asp-action="Update" asp-route-id="@item.Id"><i class="dw dw-edit2"></i> Edit</a>
+                                <a class="dropdown-item" asp-controller="Customer" asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('Are you sure to delete this custmore @item.Name ?')"><i class="dw dw-delete-3"></i> Delete</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

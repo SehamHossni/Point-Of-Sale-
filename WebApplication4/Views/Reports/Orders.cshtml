@@ -1,0 +1,88 @@
+﻿@model OrdersReport
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<h1>Orders</h1>
+
+
+
+<div class="card-box mb-30">
+
+    ء
+
+    <div id="value"></div>
+    <h2 class="h4 pd-20">Orders in a @Model.currentRep From today</h2>
+
+
+
+    <div class="card-body">
+        <p class="text-uppercase small mb-2">
+            <strong>Orders</strong>
+        </p>
+        <h5 class="mb-0">
+            <strong>@Model.totalExp</strong>
+        </h5>
+        <hr />
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <table class="data-table table nowrap">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Total</th>
+                <th>Custmore Name</th>
+                <th>Custmore phone</th>
+                <th class="datatable-nosort">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Explist)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.OrderTime</td>
+                    <td>
+                        <h5 class="font-16">@item.Price</h5>
+                    </td>
+                    <td>@item.Customer.Name</td>
+                    <td>@item.Customer.Phone</td>
+                    <td>
+                        <!-- <div class="dropdown">
+                            <a class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                <i class="dw dw-more"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+                                <a class="dropdown-item" asp-controller="Expense" asp-action="Details" asp-route-id="@item.Id"><i class="dw dw-eye"></i> Details</a>
+                                <a class="dropdown-item" asp-controller="Expense" asp-action="Update" asp-route-id="@item.Id"><i class="dw dw-edit2"></i> Update</a>
+                                <a class="dropdown-item" asp-controller="Expense" asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('Are you sure to delete this instructor  ?')"><i class="dw dw-delete-3"></i> Delete</a>
+                            </div>
+                        </div>-->
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@using (Html.BeginForm("Orders", "Reports", FormMethod.Post))
+{
+    @Html.DropDownList("DropdownName", new SelectList(Model.Peroid))
+    <input type="submit" value="Submit" class="btn btn-success" />
+}
+
+
+
+

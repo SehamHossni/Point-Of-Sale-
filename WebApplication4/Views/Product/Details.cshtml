@@ -1,0 +1,57 @@
+﻿@model ProductVM
+
+<div class="min-height-200px">
+    <div class="page-header">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="title">
+                    <h4>Product Details</h4>
+                </div>
+                <nav aria-label="breadcrumb" role="navigation">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">Home</li>
+                        <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="product-wrap">
+        <div class="product-detail-wrap mb-30">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="product-slider slider-arrow">
+                        <div class="product-slide">
+
+                            <img src="~/Image/@Model.Img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="product-detail-desc pd-20 card-box height-100-p">
+                        <h4 class="mb-20 pt-20">@Model.Name</h4>
+                        <p>@Model.Description</p>
+                        <p>Color: @Model.Color</p>
+                        <p>Size: @Model.Size</p>
+                        <div class="price">
+                            Price : @Model.Price EGP
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="product-list">
+            <ul class="row">
+                
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+

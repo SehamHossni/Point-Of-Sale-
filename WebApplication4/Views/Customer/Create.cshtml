@@ -1,0 +1,29 @@
+﻿@model CustomerVM
+<form asp-action="Create">
+    @*<input type="hidden" asp-for="Id" />*@
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Name">Name</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" asp-for="Name" />
+            <span asp-validation-for="Name" class="alert-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Address">Address</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" asp-for="Address" />
+            <span asp-validation-for="Address" class="alert-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Phone">Phone</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" asp-for="Phone" />
+            <span asp-validation-for="Phone" class="alert-danger"></span>
+        </div>
+    </div>
+
+    <button class="btn btn-success" type="submit">Add</button>
+</form>
+
+

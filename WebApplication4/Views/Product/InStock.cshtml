@@ -1,0 +1,40 @@
+﻿@using Dal.Entities;
+@model IEnumerable<Product>
+
+<select class="form-control my-5" id="productId">
+    <option disabled selected>Choose Product</option>
+    @foreach (var item in Model)
+    {
+        <option value="@item.Id">@item.Name</option>
+    }
+</select>
+
+<button class="btn btn-primary" type="submit" id="prodBtn">Check</button>
+
+<div id="value" style="width: 25%; margin:auto; height: 60px;text-align:center; padding-top:5px; background-color:#009; color:white; border-radius:20px">
+</div>
+
+
+
+<script src="~/src/scripts/jquery.min.js"> </script>
+
+
+<script>
+    $(function () {
+        $("#prodBtn").click(function () {
+            var productId = $("#productId").val();
+            $("#value").html("");
+            $.ajax({
+                type: "POST",
+                url: "/Product/InStock",
+                data: { id: productId },
+                success: function (res) {
+                    console.log(res);
+                    $("#value").append("<h2 class='text-white'>" + res + "</h2>");
+                }
+            });
+        });
+    });
+</script>
+
+

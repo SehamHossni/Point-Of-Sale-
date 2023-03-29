@@ -1,0 +1,43 @@
+﻿@using BLL.inteface;
+@using Dal.Entities;
+@inject IGenericRepository<Customer> customerRep
+
+
+<select class="form-control" id="CustId">
+    <option disabled selected hidden>Choose Cusomer</option>
+
+    @foreach (var item in await customerRep.GetAll())
+    {
+        <option value="@item.Id">@item.Name</option>
+    }
+</select>
+
+<button class="btn btn-primary" type="submit" id="custBtn">Check</button>
+
+<div id="value" style="width: 25%;text-align:center;height:150px ;background-color:#009; border-radius:20px" class="">
+</div>
+
+<script src="~/src/scripts/jquery.min.js"></script>
+
+<script>
+    $(function () {
+        $("#custBtn").click(function () {
+            var customerID = $("#CustId").val();
+            $("#value").empty();
+            $.ajax({
+                type: "POST",
+                url: "/Customer/CheckProducts/" + customerID,
+
+                success: function (res) {
+                    $.each(res, function (i, e) {
+                        $("#value").append("<h4>" + e.name + "</h4>");
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+
+
+

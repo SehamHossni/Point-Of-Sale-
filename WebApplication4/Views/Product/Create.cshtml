@@ -1,0 +1,53 @@
+﻿@model ProductVM
+
+<form asp-action="Create" enctype="multipart/form-data">
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Name">Name</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" type="text" asp-for="Name" />
+            <span asp-validation-for="Name" class="alert-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Color">Color</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" type="text" asp-for="Color" />
+            <span asp-validation-for="Color" class="alert-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Size">Size</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" type="number" asp-for="Size" />
+            <span asp-validation-for="Size" class="alert-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Price">Price</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" type="number" asp-for="Price" />
+            <span asp-validation-for="Price" class="alert-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Description">Description</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" type="text" asp-for="Description" />
+            <span asp-validation-for="Description" class="alert-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="ImgFile">Image</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" type="file" asp-for="ImgFile" />
+
+        </div>
+    </div>
+
+    <button class="btn btn-success" type="submit">Add</button>
+</form>
+
+
+

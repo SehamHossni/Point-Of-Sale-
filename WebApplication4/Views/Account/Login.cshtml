@@ -1,0 +1,95 @@
+﻿@model BLL.ViewModel.UserLoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<hr />
+<section class="vh-100" style="background-color:#eee;">
+    <div class="container h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                     class="img-fluid" alt="Sample image">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign In</p>
+                <form asp-action="Login" style="background-color:#eee;">
+             
+                  
+
+                    <!-- User Name input -->
+                    <div class="form-outline mb-4">
+                        <input asp-for="UserName" class="form-control form-control-lg"
+                               placeholder="Enter User Name" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-3">
+                        <input asp-for="Password" class="form-control form-control-lg"
+                               placeholder="Enter password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Checkbox -->
+                        <div class="form-check mb-0">
+                            <input class="form-check-input me-2" type="checkbox" asp-for="RememberMe" id="form2Example3" />
+                            @Html.DisplayNameFor(model => model.RememberMe)
+                        
+                        </div>
+                       
+                    </div>
+
+                    <div class="text-center text-lg-start mt-4 pt-2">
+                  
+                        <input type="submit" value="Login" class="btn btn-primary"
+                               style="padding-left: 2.5rem; padding-right: 2.5rem;" />
+                        
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Admin Account</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Have All rights and accesss</h6>
+                        <p class="card-text">UserName :  Admin</p>
+                        <p class="card-text">UserName :  ITIadmin2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">User Account</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Limited rights and accesss</h6>
+                        <p class="card-text">UserName :  User1</p>
+                        <p class="card-text">UserName :  ITIuser2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

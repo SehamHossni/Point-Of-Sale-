@@ -1,0 +1,32 @@
+﻿@model ExpenseVM
+
+<div class="min-height-200px">
+    <div class="page-header">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="title">
+                    <h4>Expense Details</h4>
+                </div>
+                <nav aria-label="breadcrumb" role="navigation">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Expense Details</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <h4 class="card-header">Details</h4>
+        <div class="card-body">
+            <h5>Name : @Model.Name</h5><br />
+            <h5>Date : @Model.Date</h5><br />
+            <h5>Amount : @Model.Amount</h5><br />
+            <h5>Notes : @Model.Notes</h5>
+            <br />
+            <a asp-action="Index" asp-controller="Expense" class= "btn btn-danger"> Back To Index  </a>
+        </div>
+    </div>
+</div>
+
+

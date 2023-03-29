@@ -1,0 +1,98 @@
+C:\Users\asmaa\source\repos\Ecommerce\Dal\bin\Debug\net7.0\Dal.deps.json
+C:\Users\asmaa\source\repos\Ecommerce\Dal\bin\Debug\net7.0\Dal.runtimeconfig.json
+C:\Users\asmaa\source\repos\Ecommerce\Dal\bin\Debug\net7.0\Dal.dll
+C:\Users\asmaa\source\repos\Ecommerce\Dal\bin\Debug\net7.0\Dal.pdb
+C:\Users\asmaa\source\repos\Ecommerce\Dal\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+C:\Users\asmaa\source\repos\Ecommerce\Dal\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asmaa\source\repos\Ecommerce\Dal\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+C:\Users\asmaa\source\repos\Ecommerce\Dal\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+C:\Users\asmaa\source\repos\Ecommerce\Dal\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\asmaa\source\repos\Ecommerce\Dal\obj\Debug\net7.0\Dal.dll
+C:\Users\asmaa\source\repos\Ecommerce\Dal\obj\Debug\net7.0\refint\Dal.dll
+C:\Users\asmaa\source\repos\Ecommerce\Dal\obj\Debug\net7.0\Dal.pdb
+C:\Users\asmaa\source\repos\Ecommerce\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+C:\Users\asmaa\source\repos\Ecommerce\Dal\obj\Debug\net7.0\ref\Dal.dll
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.deps.json
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.runtimeconfig.json
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.dll
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.pdb
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.dll
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.pdb
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.genruntimeconfig.cache
+C:\Users\welcome\Desktop\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.deps.json
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.runtimeconfig.json
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.dll
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.pdb
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.dll
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.pdb
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.genruntimeconfig.cache
+C:\Users\Ahmed Hamada\Downloads\تعديلة سهام\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.deps.json
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.runtimeconfig.json
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.dll
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.pdb
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.dll
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.pdb
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.genruntimeconfig.cache
+C:\Users\welcome\Desktop\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.deps.json
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.runtimeconfig.json
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.dll
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.pdb
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.dll
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.pdb
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.genruntimeconfig.cache
+C:\Users\Ahmed Hamada\Downloads\Final Man\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\ref\DAL.dll
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.deps.json
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.runtimeconfig.json
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.dll
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\bin\Debug\net7.0\DAL.pdb
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.dll
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\refint\DAL.dll
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.pdb
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\DAL.genruntimeconfig.cache
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Semi-Final\Ecommerce\Ecommerce\Dal\obj\Debug\net7.0\ref\DAL.dll
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\bin\Debug\net7.0\DAL.deps.json
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\bin\Debug\net7.0\DAL.runtimeconfig.json
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\bin\Debug\net7.0\DAL.dll
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\bin\Debug\net7.0\DAL.pdb
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\obj\Debug\net7.0\DAL.dll
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\obj\Debug\net7.0\refint\DAL.dll
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\obj\Debug\net7.0\DAL.pdb
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\obj\Debug\net7.0\DAL.genruntimeconfig.cache
+E:\ASP .NET CORE MVC\Projects\Semi-Final(Modified)\Ecommerce\Dal\obj\Debug\net7.0\ref\DAL.dll

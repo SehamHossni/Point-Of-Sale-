@@ -1,0 +1,38 @@
+﻿@model ExpenseVM
+
+<form asp-action="Create" asp-controller="Expense">
+
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Name">Name</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" asp-for="Name" />
+            <span asp-validation-for="Name" class="alert-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Date">Date</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" asp-for="Date" />
+            <span asp-validation-for="Date" class="alert-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Amount">Amount</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" asp-for="Amount" />
+            <span asp-validation-for="Amount" class="alert-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-12 col-md-2 col-form-label" asp-for="Notes">Notes</label>
+        <div class="col-sm-12 col-md-10">
+            <input class="form-control" asp-for="Notes" />
+            <span asp-validation-for="Notes" class="alert-danger"></span>
+        </div>
+    </div>
+
+    <button class="btn btn-success" type="submit">Add</button>
+</form>
